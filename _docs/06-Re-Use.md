@@ -15,8 +15,7 @@ If you want to use a different name for the folder "example"
 Before create new theme
 
 * Create a empty repo on GitHub with the same name as theme
-* Create new folder with the same name as repo
-* Run `git init` inside folder theme
+* Clone empty repo
 * Copy all files inside this repo less `.git` folder
 
 And then execute
@@ -25,8 +24,6 @@ And then execute
 ~/my-new-theme $ git add --all
 
 ~/my-new-theme $ git commit -m "first commit"
-
-~/my-new-theme $ git remote add origin git@github.com:USER/REPO.git
 
 ~/my-new-theme $ git push -u origin master
 ```
@@ -46,7 +43,7 @@ And then execute
   * `spec.summary`
   * `spec.homepage`
 * `/example/css/main.scss` (@import)
-* `_sass/theme-name.scss` (@import)
+* `_sass/my-new-theme.scss` (@import)
 * `/example/Gemfile` (theme name)
 * `/example/_config.yml` (theme name)
 
