@@ -6,7 +6,7 @@ based on the [official theme "minima 1.2"](https://github.com/jekyll/minima) by
 
 If you want to know the steps to create or re-use this scaffold, **take a look at the** [**wiki**](https://github.com/StartZeroGnu/gem-themes/wiki)
 
-**I used the this files of "minima theme" as an example**
+**I used this files of "minima theme" as an example**
 
 * ["minima.gemspec"](https://github.com/jekyll/minima/blob/master/minima.gemspec)
 * [".gitignore"](https://github.com/jekyll/minima/blob/master/.gitignore)
